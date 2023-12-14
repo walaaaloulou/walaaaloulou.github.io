@@ -75,7 +75,7 @@ button {
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid fuchsia;
+    border: 2px solid gold;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -84,7 +84,7 @@ button {
 }
 
 span {
-    background: rebeccapurple;
+    background: midnightblue;
     height: 100%;
     width: 0;
     border-radius: 25px;
