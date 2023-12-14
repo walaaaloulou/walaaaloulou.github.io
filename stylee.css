@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia;
+}
+
+.banner{
+width: 100%;
+height:125vh ;
+background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backk.jpeg) ;
+background-size: cover ;
+background-position:center;
+}
+.navbar{
+width:85%;
+margin: auto;
+padding: 35px 0;
+display: flex ;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+width: 120px;
+cursor: pointer;
+
+}
+.navbar ul li {
+list-style-type: none;
+display: inline-block;
+margin:0 20px;
+position: relative;
+}
+.navbar ul li a{
+text-decoration: none;
+color:beige;
+text-transform: uppercase;
+
+}
+.navbar ul li ::after{
+content:'';
+height:3px;
+width:0;
+background:purple;
+position:absolute;
+left:0;
+bottom:-10;
+transition: 0.5s;
+}
+.navbar ul li :hover:after{
+width: 100%;
+}
+.content{
+    widyh:100%;
+    position:absolute;
+    top:50%;
+    transform: translateY(80%);
+    transform: translateX(70%);
+    text-align: center;
+    color:#fff;
+}
+.content h1{
+front-size:70px;
+margin-top:80px;
+
+}
+.content p{
+margin:20px auto;
+font-weight: 100;
+line-height: 25px;
+}
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid fuchsia;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span {
+    background: rebeccapurple;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+   
+}
+
+.content td{
+   
+    color:#fff;
+
+
+}
+.contact-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.contact-table td {
+    padding: 10px;
+}
+
+.contact-table label {
+    display: block;
+    margin-bottom: 5px; 
+}
+
+td a {
+    color: #fff; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+td a:hover {
+    color: lightcoral; 
+}
+p{
+    color: #fff;
+    front-size:70px;
+    margin-top:80px;
+    text-align: center;
+}
+h2{
+    color:mediumorchid;
+    front-size:70px;
+    margin-top:80px;
+    text-align: center;
+
+
+}
+.left-image {
+    
+    transform: translateY(-20px); 
+    transform: translateX(-20px); 
+  }
+  .profile-photo {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    margin-bottom: 20px; 
+ }
